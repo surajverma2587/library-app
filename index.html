@@ -19,7 +19,7 @@
       <h1 class="text-dark text-center mb-3">
         Library of Congress Search Engine
       </h1>
-      <form>
+      <form id="search-form">
         <div class="mb-3">
           <input
             type="text"
@@ -29,7 +29,7 @@
           />
         </div>
         <div class="mb-3">
-          <select class="form-select">
+          <select class="form-select" id="search-options">
             <option selected disabled>Select a format...</option>
             <option value="maps">Maps</option>
             <option value="audio">Audio</option>
@@ -56,5 +56,6 @@
       integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
       crossorigin="anonymous"
     ></script>
+    <script src="./index.js"></script>
   </body>
 </html>
